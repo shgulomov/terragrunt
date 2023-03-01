@@ -12,7 +12,7 @@ remote_state {
 
 # Use the module "ec2-instance" from the aws-terraform repository
 terraform {
-  source = "git::git@github.com:shgulomov/aws-terraform.git//ec2-instance//app?ref=v0.0.3"
+  source = "git::git@github.com:shgulomov/aws-terraform.git//ec2-instance?ref=v0.0.3"
 
   # Pass in input variables to the module
   inputs = {
